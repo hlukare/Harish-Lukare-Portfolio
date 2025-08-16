@@ -171,7 +171,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="space-y-2">
                 <div className="flex justify-between">
-                  <span>CGPA: 9.46/10.0</span>
+                  <span>CGPA: 9.44/10.0</span>
                   <span>2022 - 2026</span>
                 </div>
                 <p>Relevant Coursework:</p>
@@ -180,7 +180,7 @@ export default function Home() {
                   <li>Object-Oriented Programming</li>
                   <li>Database Management Systems</li>
                   <li>Computer Networks</li>
-                  <li>Machine Learning</li>
+                  <li>Cloud Computing & Generative AI</li>
                   <li>Operating System</li>
                 </ul>
               </CardContent>
@@ -464,7 +464,7 @@ export default function Home() {
                         </p>
                       </div>
                     </li>
-                    <li className="flex gap-3">
+                    {/* <li className="flex gap-3">
                       <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
                         <p className="font-medium">Machine Learning</p>
@@ -472,7 +472,7 @@ export default function Home() {
                         Andrew Ng (Coursera), Stanford University (Apr 2025): Regression, neural networks
                         </p>
                       </div>
-                    </li>
+                    </li> */}
                     <li className="flex gap-3">
                       <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
@@ -505,7 +505,7 @@ export default function Home() {
                       <div>
                         <p className="font-medium">Institute Topper</p>
                         <p className="text-sm text-muted-foreground">
-                          Ranked 1 - First Year, Rank 2 in Second Year in K.K Wagh Institute Of Engineering Education and Research.
+                          Ranked 1 - First Year & Third Year, Rank 2 in Second Year in K.K Wagh Institute Of Engineering Education and Research.
                         </p>
                       </div>
                     </li>
