@@ -35,7 +35,7 @@ const galleryItems = [
   {
     image: "https://res.cloudinary.com/dvctaufba/image/upload/v1744541729/IMG20240131154330_eyr4i8.jpg",
     tag: "Rank 1",
-    description: "1st in FY-BTech",
+    description: "1st in FY & TY, 2nd in SY BTech",
   },
 ];
 

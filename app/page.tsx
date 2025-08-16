@@ -65,7 +65,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <ModeToggle />
             <Button asChild variant="outline" size="sm" className="hidden md:inline-flex">
-              <Link href="https://drive.google.com/file/d/1BJTHS0nZFoD7ge9bbYiQuuZyB6L6tiKt/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1sJM9RVD_xXYp_4emT2N8_fvga0vBb4oK/view?usp=sharing">
                 <Download className="mr-2 h-4 w-4" />
                 Resume
               </Link>
@@ -91,7 +91,7 @@ export default function Home() {
                   <Link href="#contact">Contact Me</Link>
                 </Button>
                 <Button asChild variant="outline">
-                  <Link href="https://drive.google.com/file/d/1BJTHS0nZFoD7ge9bbYiQuuZyB6L6tiKt/view?usp=sharing">
+                  <Link href="https://drive.google.com/file/d/1sJM9RVD_xXYp_4emT2N8_fvga0vBb4oK/view?usp=sharing">
                     <Download className="mr-2 h-4 w-4" />
                     Resume
                   </Link>
@@ -148,7 +148,8 @@ export default function Home() {
             </div>
             <div className="aspect-square overflow-hidden rounded-full border-4 border-border max-w-[350px] mx-auto">
               <img
-                src="https://res.cloudinary.com/dvctaufba/image/upload/v1744533754/profile_oauwbi.jpg"
+                // src="https://res.cloudinary.com/dvctaufba/image/upload/v1744533754/profile_oauwbi.jpg"
+                src="https://res.cloudinary.com/dvctaufba/image/upload/v1755332106/photo_q7no8l.jpg"
                 alt="Harish Lukare"
                 className="object-cover w-full h-full"
               />
@@ -309,10 +310,27 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle>Software Engineer Intern (Hybrid) </CardTitle>
+                      <CardTitle>Full Stack Developer Intern</CardTitle>
+                      <CardDescription>Inew Technology | Pune, Maharashtra</CardDescription>
+                    </div>
+                    <div className="text-sm text-muted-foreground">July 2025 – Present</div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Working on responsive websites using React.</li>
+                    <li>Deployed application and assigned the domain. Also integrated requests for dynamic content.</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <CardTitle>Frontend Developer Intern</CardTitle>
                       <CardDescription>UDM Enterprise Private Limited | Gurgaon, Haryana</CardDescription>
                     </div>
-                    <div className="text-sm text-muted-foreground">February 2025 – Present</div>
+                    <div className="text-sm text-muted-foreground">February 2025 – August 2025</div>
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -322,12 +340,12 @@ export default function Home() {
                     <li>Collaborated with the frontend team to integrate APIs with Javascript components.</li>
                     <li>Worked in a collaborative environment to enhance operational efficiency through 360° Marketing & IT Solutions.</li>
                     <li>
-                      Currently following Agile methodology.
+                      Followed Agile methodology.
                     </li>
                   </ul>
                 </CardContent>
               </Card>
-              <Card>
+              {/* <Card>
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
@@ -347,7 +365,7 @@ export default function Home() {
                     <li>Optimized website performance, improving page load times by 25%.</li>
                   </ul>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </section>
@@ -376,7 +394,7 @@ export default function Home() {
                 description="Developed an ML-based system to analyze and rank institutes with 85% accuracy, improving training evaluation efficiency and identifying underperforming institutions."
                 skills={["TensorFlow", "MongoDB", "Llama LLM", "PyTorch", "Machine Learning", "Distributed Systems", "Natural Language Processing (NLP)"]}
                 githubLink="https://github.com/hlukare/AI-ML-project-Institute-analysis"
-                demoLink="https://sites.google.com/view/hlukare/home"
+                demoLink="https://cms-sih.vercel.app/"
               />
 
               <ProjectCard
@@ -681,7 +699,7 @@ export default function Home() {
               Here is my resume, feel free to download it for a detailed overview of my education, skills, and experience.
             </p>
             <Button size="lg" className="gap-2" asChild>
-              <Link href="https://drive.google.com/file/d/1BJTHS0nZFoD7ge9bbYiQuuZyB6L6tiKt/view?usp=sharing" target="_blank">
+              <Link href="https://drive.google.com/file/d/1sJM9RVD_xXYp_4emT2N8_fvga0vBb4oK/view?usp=sharing" target="_blank">
                 <Download className="h-4 w-4" />
                 Download Resume (PDF)
               </Link>
@@ -735,14 +753,14 @@ export default function Home() {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              {/* <Card>
               <CardHeader>
                 <CardTitle>Send a Message</CardTitle>
                   </CardHeader>
                   <CardContent>
                   <ContactForm />
                 </CardContent>
-              </Card> 
+              </Card>  */}
             </div>
           </div>
         </section>
