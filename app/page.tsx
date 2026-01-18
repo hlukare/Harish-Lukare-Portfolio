@@ -149,7 +149,7 @@ export default function Home() {
             <div className="aspect-square overflow-hidden rounded-full border-4 border-border max-w-[350px] mx-auto">
               <img
                 // src="https://res.cloudinary.com/dvctaufba/image/upload/v1744533754/profile_oauwbi.jpg"
-                src="https://res.cloudinary.com/dvctaufba/image/upload/v1755332106/photo_q7no8l.jpg"
+                src="https://res.cloudinary.com/dvctaufba/image/upload/v1768716452/Harish_Lukare_q91j3b.jpg"
                 alt="Harish Lukare"
                 className="object-cover w-full h-full"
               />
