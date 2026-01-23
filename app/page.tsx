@@ -65,7 +65,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <ModeToggle />
             <Button asChild variant="outline" size="sm" className="hidden md:inline-flex">
-              <Link href="https://drive.google.com/file/d/1Q_SHlJhdB4_afBA7vzaEx9y7YYN6btbs/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1-WJgeIfIJwPqJXsSj1v1AYT3y9feM8_Y/view?usp=sharing">
                 <Download className="mr-2 h-4 w-4" />
                 Resume
               </Link>
@@ -91,7 +91,7 @@ export default function Home() {
                   <Link href="#contact">Contact Me</Link>
                 </Button>
                 <Button asChild variant="outline">
-                  <Link href="https://drive.google.com/file/d/1Q_SHlJhdB4_afBA7vzaEx9y7YYN6btbs/view?usp=sharing">
+                  <Link href="https://drive.google.com/file/d/1-WJgeIfIJwPqJXsSj1v1AYT3y9feM8_Y/view?usp=sharing">
                     <Download className="mr-2 h-4 w-4" />
                     Resume
                   </Link>
@@ -699,7 +699,7 @@ export default function Home() {
               Here is my resume, feel free to download it for a detailed overview of my education, skills, and experience.
             </p>
             <Button size="lg" className="gap-2" asChild>
-              <Link href="https://drive.google.com/file/d/1Q_SHlJhdB4_afBA7vzaEx9y7YYN6btbs/view?usp=sharing" target="_blank">
+              <Link href="https://drive.google.com/file/d/1-WJgeIfIJwPqJXsSj1v1AYT3y9feM8_Y/view?usp=sharing" target="_blank">
                 <Download className="h-4 w-4" />
                 Download Resume (PDF)
               </Link>
