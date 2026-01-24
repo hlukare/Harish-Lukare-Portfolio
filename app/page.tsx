@@ -80,11 +80,10 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">Harish Lukare</h1>
-              <h2 className="text-2xl font-medium text-muted-foreground">BTech Computer Engineering Student</h2>
+              <h2 className="text-2xl font-medium text-muted-foreground">Software Engineer | Backend & Systems Development</h2>
               <p className="text-muted-foreground">
-              I am a final-year Computer Engineering student at K K Wagh Institute of Engineering Education and Research, 
-              specializing in software development with expertise in web development and AI/ML. My interest lies in logic 
-              building in data structures and algorithms.
+              Final-Year Computer Engineering Student (2026), KKWIEER, Nashik.
+              Software engineering and data structures & algorithms (<a href="https://leetcode.com/u/harishlukare/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">LeetCode</a>). Internship and project work across backend and full-stack systems.
               </p>
               <div className="flex gap-4">
                 <Button asChild>
@@ -144,6 +143,19 @@ export default function Home() {
                     </svg>
                   </div>
                 </a>
+                <a
+                  href="https://leetcode.com/u/harishlukare/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LeetCode Profile"
+                  className="transition-transform hover:scale-110"
+                >
+                  <div className="bg-[#FFA116] text-white p-2 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-2.445-1.337l2.467-2.503c.516-.514.498-1.366-.037-1.901-.535-.535-1.387-.552-1.902-.038l-10.1 10.101c-.981.982-1.494 2.337-1.494 3.835 0 1.498.513 2.895 1.494 3.875l4.347 4.361c.981.979 2.337 1.452 3.834 1.452s2.853-.512 3.835-1.494l2.609-2.637c.514-.514.496-1.365-.039-1.9s-1.386-.553-1.899-.039zM20.811 13.01H10.666c-.702 0-1.27.604-1.27 1.346s.568 1.346 1.27 1.346h10.145c.701 0 1.27-.604 1.27-1.346s-.569-1.346-1.27-1.346z"/>
+                    </svg>
+                  </div>
+                </a>
               </div>
             </div>
             <div className="aspect-square overflow-hidden rounded-full border-4 border-border max-w-[350px] mx-auto">
@@ -177,9 +189,9 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Developing and maintaining production-grade backend services in Golang, building RESTful APIs with proper versioning, validation, and error handling in a real-world product environment.</li>
-                    <li>Implementing authentication and authorization mechanisms, role-based access control, and secure API workflows while working under senior backend engineers following industry best practices.</li>
-                    <li>Working on a backend project involving database transactions, concurrency, and service-to-service communication, following code reviews, testing, and Agile development processes.</li>
+                    <li>Developing production-grade backend services in Golang with RESTful APIs, versioning, validation, and error handling.</li>
+                    <li>Implementing authentication, authorization, role-based access control (RBAC), and secure API workflows.</li>
+                    <li>Working on database transactions, concurrency, service-to-service communication, following Agile and code review practices.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -195,8 +207,8 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Designed, implemented, and operated production microservices; improving end-to-end latency by <strong>300 ms</strong> while handling <strong>195K+</strong> edge requests, <strong>687+</strong> function invocations, and <strong>15+ GB</strong> fast data transfer.</li>
-                    <li>Worked in an Agile/Scrum team, actively participating in daily stand-ups, sprint planning, and code reviews; owned features from requirements through deployment, supporting <strong>1000+</strong> active users with p95 &lt; <strong>350 ms</strong> latency, microfrontend routing.</li>
+                    <li>Designed and operated production microservices, improving latency by <strong>300 ms</strong>; handled <strong>195K+</strong> edge requests, <strong>687+</strong> function invocations, <strong>15+ GB</strong> data transfer.</li>
+                    <li>Owned features from requirements to deployment in Agile/Scrum team; supported <strong>1000+</strong> users with p95 &lt; <strong>350 ms</strong> latency and microfrontend routing.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -212,13 +224,8 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>
-                    Developed AI-driven solutions for client digital presence and increased readability by 40%.                    </li>
-                    <li>Collaborated with the frontend team to integrate APIs with Javascript components.</li>
-                    <li>Worked in a collaborative environment to enhance operational efficiency through 360° Marketing & IT Solutions.</li>
-                    <li>
-                      Followed Agile methodology.
-                    </li>
+                    <li>Developed AI-driven solutions for client digital presence, increasing readability by <strong>40%</strong>.</li>
+                    <li>Integrated APIs with JavaScript components and enhanced operational efficiency using Agile methodology.</li>
                   </ul>
                 </CardContent>
               </Card>
