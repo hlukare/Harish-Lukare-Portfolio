@@ -101,7 +101,7 @@ export default function Home() {
               {/* Social Media Links */}
               <div className="flex items-center justify-center gap-6 pt-4">
                 <a
-                  href="www.linkedin.com/in/lukare-harish"
+                  href="https://www.linkedin.com/in/lukare-harish/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn Profile"
@@ -123,7 +123,7 @@ export default function Home() {
                   </div>
                 </a>
                 <a
-                  href="mailto:harishlukare6@gmail.com"
+                  href="mailto:hdlukare@gmail.com"
                   aria-label="Email"
                   className="transition-transform hover:scale-110"
                 >
@@ -157,147 +157,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Education Section */}
-        <section id="education" className="py-8 scroll-mt-16">
-          <div className="space-y-6 max-w-[75%] mx-auto">
-            <div className="flex items-center gap-2">
-              <BookOpen className="h-6 w-6" />
-              <h2 className="text-3xl font-bold tracking-tight">Education</h2>
-            </div>
-            <Card>
-              <CardHeader>
-                <CardTitle>Bachelor of Technology in Computer Engineering</CardTitle>
-                <CardDescription>KK Wagh Institute Of Engineering Education and Research, Nashik</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                <div className="flex justify-between">
-                  <span>CGPA: 9.44/10.0</span>
-                  <span>2022 - 2026</span>
-                </div>
-                <p>Relevant Coursework:</p>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>Data Structures and Algorithms</li>
-                  <li>Object-Oriented Programming</li>
-                  <li>Database Management Systems</li>
-                  <li>Computer Networks</li>
-                  <li>Cloud Computing & Generative AI</li>
-                  <li>Operating System</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
-        {/* Skills Section */}
-        <section id="skills" className="py-8 scroll-mt-16">
-          <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <Code className="h-6 w-6" />
-              <h2 className="text-3xl font-bold tracking-tight">Skills</h2>
-            </div>
-            <div className="grid gap-6 md:grid-cols-2">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Technical Skills</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <div>
-                      <h3 className="font-medium mb-2">Programming Languages</h3>
-                      <div className="flex flex-wrap gap-2">
-                        {["Python", "JavaScript", "Java", "C++", "SQL"].map((skill) => (
-                          <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
-                            {skill}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                    <div>
-                      <h3 className="font-medium mb-2">Web Development</h3>
-                      <div className="flex flex-wrap gap-2">
-                        {["React", "Node.js", "HTML", "CSS", "Tailwind CSS", "MySQL", "PostgreSQL", "MongoDB"].map(
-                          (skill) => (
-                            <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
-                              {skill}
-                            </div>
-                          ),
-                        )}
-                      </div>
-                    </div>
-                    <div>
-                      <h3 className="font-medium mb-2">Tools & Technologies</h3>
-                      <div className="flex flex-wrap gap-2">
-                        {["Git", "Docker", "AWS", "Firebase", "Figma", "Canva", "Postman", "Jupyter"].map((skill) => (
-                          <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
-                            {skill}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Soft Skills</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Problem Solving</span>
-                      </div>
-                    </div>
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Team Leadership</span>
-                      </div>
-                    </div>
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Communication</span>
-                      </div>
-                    </div>
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Time Management</span>
-                      </div>
-                    </div>
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Critical Thinking</span>
-                      </div>
-                    </div>
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Adaptability</span>
-                      </div>
-                    </div>
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Project Management</span>
-                      </div>
-                    </div>
-                    {/* <div className="space-y-1">
-                      <div className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>Attention to Detail</span>
-                      </div>
-                    </div> */}
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
-
         {/* Experience Section */}
         <section id="experience" className="py-8 scroll-mt-16">
           <div className="space-y-6 max-w-[75%] mx-auto">
@@ -310,16 +169,34 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle>Full Stack Developer Intern</CardTitle>
-                      <CardDescription>Inew Technology | Pune, Maharashtra</CardDescription>
+                      <CardTitle>Software Engineer Intern (Backend – Golang)</CardTitle>
+                      <CardDescription>Josh Software Inc. | Pune, Maharashtra</CardDescription>
                     </div>
-                    <div className="text-sm text-muted-foreground">July 2025 – Present</div>
+                    <div className="text-sm text-muted-foreground">January 2026 - Present</div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Working on responsive websites using React.</li>
-                    <li>Deployed application and assigned the domain. Also integrated requests for dynamic content.</li>
+                    <li>Developing and maintaining production-grade backend services in Golang, building RESTful APIs with proper versioning, validation, and error handling in a real-world product environment.</li>
+                    <li>Implementing authentication and authorization mechanisms, role-based access control, and secure API workflows while working under senior backend engineers following industry best practices.</li>
+                    <li>Working on a backend project involving database transactions, concurrency, and service-to-service communication, following code reviews, testing, and Agile development processes.</li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <CardTitle>Software Engineering Intern (Full Stack)</CardTitle>
+                      <CardDescription>Inew Technologies LLP | Remote – Pune, Maharashtra</CardDescription>
+                    </div>
+                    <div className="text-sm text-muted-foreground">July 2025 - December 2025</div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Designed, implemented, and operated production microservices; improving end-to-end latency by <strong>300 ms</strong> while handling <strong>195K+</strong> edge requests, <strong>687+</strong> function invocations, and <strong>15+ GB</strong> fast data transfer.</li>
+                    <li>Worked in an Agile/Scrum team, actively participating in daily stand-ups, sprint planning, and code reviews; owned features from requirements through deployment, supporting <strong>1000+</strong> active users with p95 &lt; <strong>350 ms</strong> latency, microfrontend routing.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -370,14 +247,105 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Hackathons Section */}
-        <section id="hackathons" className="py-8 scroll-mt-16">
+        {/* Skills Section */}
+        <section id="skills" className="py-8 scroll-mt-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <Cpu className="h-6 w-6" />
-              <h2 className="text-3xl font-bold tracking-tight">Hackathons</h2>
+              <Code className="h-6 w-6" />
+              <h2 className="text-3xl font-bold tracking-tight">Skills</h2>
             </div>
-            <HackathonCarousel />
+            <div className="grid gap-6 md:grid-cols-2">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Technical Skills</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div>
+                      <h3 className="font-medium mb-2">Data Structures & Algorithms</h3>
+                      <div className="flex flex-wrap gap-2">
+                        <div className="px-3 py-1 bg-muted rounded-full text-sm">
+                          LeetCode Rating 1500+
+                        </div>
+                        <div className="px-3 py-1 bg-muted rounded-full text-sm">
+                          Handle: harishlukare
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="font-medium mb-2">CS Fundamentals</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {["DS & Algorithms", "Operating Systems", "DBMS", "Computer Networks", "OOP"].map((skill) => (
+                          <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
+                            {skill}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="font-medium mb-2">Programming Languages</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {["C/C++", "Go", "Java", "Python", "JavaScript", "SQL"].map((skill) => (
+                          <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
+                            {skill}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="font-medium mb-2">Backend & Deployment</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {["Node.js", "AWS", "Docker", "PostgreSQL", "MongoDB", "Redis", "CI/CD"].map((skill) => (
+                          <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
+                            {skill}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Soft Skills</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div>
+                      <h3 className="font-medium mb-2">Backend Systems</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {["Linux", "Distributed Systems", "Fault Tolerance", "High Availability", "Agile Delivery"].map((skill) => (
+                          <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
+                            {skill}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="font-medium mb-2">Software/Tools</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {["Git/GitHub", "JUnit", "VS Code", "Jupyter"].map((skill) => (
+                          <div key={skill} className="px-3 py-1 bg-muted rounded-full text-sm">
+                            {skill}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="font-medium mb-2">Professional Skills</h3>
+                      <div className="grid grid-cols-2 gap-3">
+                        {["Problem Solving", "Team Leadership", "Communication", "Time Management", "Critical Thinking", "Adaptability", "Project Management"].map((skill) => (
+                          <div key={skill} className="flex items-center gap-2">
+                            <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0" />
+                            <span className="text-sm">{skill}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </section>
 
@@ -390,11 +358,48 @@ export default function Home() {
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
+                title="Cloud VM Management System"
+                description="A cloud infrastructure management platform for monitoring and managing virtual machines across AWS, Azure, and GCP with real-time monitoring, cost analysis, and automated snapshots."
+                skills={["Node.js", "Express", "MongoDB", "React 18", "Vite", "Tailwind CSS", "JWT", "OAuth"]}
+                githubLink="https://github.com/hlukare/CloudStack-Management-System.git"
+                demoLink="https://vm-monitoring.vercel.app/"
+              />
+
+              <ProjectCard
                 title="Institute analysis and ranking based on AIML"
                 description="Developed an ML-based system to analyze and rank institutes with 85% accuracy, improving training evaluation efficiency and identifying underperforming institutions."
                 skills={["TensorFlow", "MongoDB", "Llama LLM", "PyTorch", "Machine Learning", "Distributed Systems", "Natural Language Processing (NLP)"]}
                 githubLink="https://github.com/hlukare/AI-ML-project-Institute-analysis"
                 demoLink="https://cms-sih.vercel.app/"
+              />
+
+              <ProjectCard
+                title="Union Bank AI-Driven Service Assistant"
+                description="Revolutionized banking customer service with AI: Video query submission, AI classification, multilingual support, fraud detection, and service ticket generation."
+                skills={["Python", "AI/ML", "Node.js", "PostgreSQL", "Android", "Flask", "TensorFlow", "spaCy"]}
+                githubLink="https://github.com/hlukare/VYOM-Union-Bank-of-India.git"
+                // demoLink="https://sites.google.com/view/hlukare/home"
+              />
+
+              <ProjectCard
+                title="Personal Expense Tracker"
+                description="A backend API service for managing personal expenses with database migration, seed data, and comprehensive testing. Built with clean architecture and RESTful design."
+                skills={["Golang", "PostgreSQL", "REST API", "Database Migration"]}
+                githubLink="https://github.com/hlukare/Personal-Expense-Tracker.git"
+              />
+
+              <ProjectCard
+                title="Authentication & Authorization Projects"
+                description="A comprehensive collection of authentication implementations demonstrating various security patterns: OTP-Auth (MFA), RBAC-Docs (Role-Based Access), JWT-Auth (Token Management), and SSO-OAuth (Single Sign-On)."
+                skills={["Golang", "JWT", "OAuth 2.0", "bcrypt", "RBAC", "REST API"]}
+                githubLink="https://github.com/hlukare/GoLang-Mini-Projects.git"
+              />
+
+              <ProjectCard
+                title="Blog App"
+                description="A Ruby on Rails blog application with blogs and comments functionality. Demonstrates CRUD operations, nested comments, published/unpublished status, validations, and RESTful routing."
+                skills={["Ruby on Rails", "SQLite3", "REST API", "MVC Architecture"]}
+                githubLink="https://github.com/hlukare/ROR-Blogs-App.git"
               />
 
               <ProjectCard
@@ -406,38 +411,64 @@ export default function Home() {
               />
 
               <ProjectCard
-                title="Union Bank AI-Driven Service Assistant"
-                description="Revolutionized banking customer service with AI: Video query submission, AI classification, multilingual support, fraud detection, and service ticket generation."
-                skills={["Python", "AI/ML", "Node.js", "PostgreSQL", "Android", "Flask", "TensorFlow", "spaCy", "Vosk", "Whisper"]}
-                githubLink="https://github.com/hlukare/VYOM-Union-Bank-of-India.git"
-                demoLink="https://sites.google.com/view/hlukare/home"
-              />
-
-              <ProjectCard
-                title="Charitable Trust Website"
-                description="Built a responsive and interactive website for a Charitable Trust to spread awareness, showcase initiatives, and enable donations."
-                skills={["HTML5", "CSS3", "JavaScript", "GitHub", "Netlify"]}
-                githubLink="https://github.com/hlukare/Charitable-trust-website.git"
-                demoLink="https://imdpct.netlify.app/"
+                title="Tree Plantation using Gemini API"
+                description="Developed a backend API for a tree plantation platform that facilitates NGO collaboration, self-planting, and tree tracking, with real-time weather data integration."
+                skills={["Node.js", "Express.js", "MongoDB", "Firebase", "OpenMeteo API", "API Development"]}
+                githubLink="https://github.com/OldStager01/Tree-Plantation.git"
+                // demoLink="https://tree-plantation-nine.vercel.app/"
               />
 
               <ProjectCard
                 title="EDukaan – Multilingual Product Listing Assistant"
                 description="Built an AI-driven app that enables sellers to create product listings in any Indian language through voice input, simplifying online selling."
                 skills={["React Native", "Python", "spaCy", "Google Speech-to-Text", "Cloudinary", "NLP"]}
-                githubLink="https://github.com/hlukare/EDukaan-a-Customer-Seller-Application.git"
-                demoLink="https://sites.google.com/view/hlukare/home"
+                githubLink="https://github.com/hlukare/EDukaan.git"
+                // demoLink="https://sites.google.com/view/hlukare/home"
               />
 
-              <ProjectCard
-                title="Tree Plantation using Gemini API"
-                description="Developed a backend API for a tree plantation platform that facilitates NGO collaboration, self-planting, and tree tracking, with real-time weather data integration."
-                skills={["Node.js", "Express.js", "MongoDB", "Firebase", "OpenMeteo API", "API Development"]}
-                githubLink="https://github.com/OldStager01/Tree-Plantation.git"
-                demoLink="https://tree-plantation-nine.vercel.app/"
-/>
-
             </div>
+          </div>
+        </section>
+
+        {/* Education Section */}
+        <section id="education" className="py-8 scroll-mt-16">
+          <div className="space-y-6 max-w-[75%] mx-auto">
+            <div className="flex items-center gap-2">
+              <BookOpen className="h-6 w-6" />
+              <h2 className="text-3xl font-bold tracking-tight">Education</h2>
+            </div>
+            <Card>
+              <CardHeader>
+                <CardTitle>Bachelor of Technology in Computer Engineering</CardTitle>
+                <CardDescription>KK Wagh Institute Of Engineering Education and Research, Nashik</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-2">
+                <div className="flex justify-between">
+                  <span>CGPA: 9.44/10.0</span>
+                  <span>2022 - 2026</span>
+                </div>
+                <p>Relevant Coursework:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>Data Structures and Algorithms</li>
+                  <li>Object-Oriented Programming</li>
+                  <li>Database Management Systems</li>
+                  <li>Computer Networks</li>
+                  <li>Cloud Computing & Generative AI</li>
+                  <li>Operating System</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
+        {/* Hackathons Section */}
+        <section id="hackathons" className="py-8 scroll-mt-16">
+          <div className="space-y-6">
+            <div className="flex items-center gap-2">
+              <Cpu className="h-6 w-6" />
+              <h2 className="text-3xl font-bold tracking-tight">Hackathons</h2>
+            </div>
+            <HackathonCarousel />
           </div>
         </section>
 
@@ -455,72 +486,84 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-4">
-                  <li className="flex gap-3">
+                    <li className="flex gap-3">
                       <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">AWS Academy Cloud Foundations</p>
+                        <p className="font-medium">Academic Excellence, KKWIEER, 2022-25</p>
+                        <p className="text-sm text-muted-foreground">
+                        Ranked 1st in FY, 2nd in SY, and 1st in TY in KKWIEER Institute.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex gap-3">
+                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium">Copyright (Filed), 2025</p>
+                        <p className="text-sm text-muted-foreground">
+                        Predictive Policing and Forensics Using Facial Recognition and 5G Metadata Analytics.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex gap-3">
+                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium">Copyright (Registered), 2024</p>
+                        <p className="text-sm text-muted-foreground">
+                        AI-Driven Monitoring and Evaluation System for Enhancing Skill Training Programs.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex gap-3">
+                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <p className="font-medium">Certifications, 2022-24</p>
+                          <Button 
+                            variant="outline" 
+                            size="sm" 
+                            className="h-6 text-xs px-2"
+                            asChild
+                          >
+                            <Link 
+                              href="https://drive.google.com/drive/folders/1O4YllFTXV-A0HdZl-Z86zXKUnt5RkS4N?usp=sharing" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                            >
+                              View
+                            </Link>
+                          </Button>
+                        </div>
+                        <p className="text-sm text-muted-foreground">
+                        Completed NPTEL courses in Software Testing, DAA, DBMS, Programming in C/C++.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex gap-3">
+                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <p className="font-medium">AWS Academy Cloud Foundations</p>
+                          <Button 
+                            variant="outline" 
+                            size="sm" 
+                            className="h-6 text-xs px-2"
+                            asChild
+                          >
+                            <Link 
+                              href="https://drive.google.com/drive/folders/1TN9ArkqvcVzQYYZmpht0cdyw95gouYjo?usp=sharing" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                            >
+                              View
+                            </Link>
+                          </Button>
+                        </div>
                         <p className="text-sm text-muted-foreground">
                         AWS Academy (Apr 2025): Cloud basics, scalability, distributed systems
                         </p>
                       </div>
                     </li>
-                    {/* <li className="flex gap-3">
-                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-medium">Machine Learning</p>
-                        <p className="text-sm text-muted-foreground">
-                        Andrew Ng (Coursera), Stanford University (Apr 2025): Regression, neural networks
-                        </p>
-                      </div>
-                    </li> */}
-                    <li className="flex gap-3">
-                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-medium">Intellectual Property Rights</p>
-                        <p className="text-sm text-muted-foreground">
-                        Copyright filed for AI and Machine Learning-based Institute Analysis.
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex gap-3">
-                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-medium">Software Testing</p>
-                        <p className="text-sm text-muted-foreground">
-                        NPTEL (Feb 2024): Unit testing, debugging.
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex gap-3">
-                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-medium">Certificates</p>
-                        <p className="text-sm text-muted-foreground">
-                        Design and Analysis of Algorithms, Database Management Systems, Programming in C, Python and C++.
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex gap-3">
-                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-medium">Institute Topper</p>
-                        <p className="text-sm text-muted-foreground">
-                          Ranked 1 - First Year & Third Year, Rank 2 in Second Year in K.K Wagh Institute Of Engineering Education and Research.
-                        </p>
-                      </div>
-                    </li>
-                    
-                    
                   </ul>
-                    {/* <li className="flex gap-3">
-                      <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-medium">Real world Project</p>
-                        <p className="text-sm text-muted-foreground">
-                        Tech Sanjivani 2025 – Winner (Team Lead)
-                        </p>
-                      </div>
-                    </li> */}
                 </CardContent>
               </Card>
               <Card>
@@ -532,27 +575,59 @@ export default function Home() {
                     <li className="flex gap-3">
                       <Trophy className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">IDEA Hackathon - Union Bank of India</p>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <p className="font-medium">Tech Sanjivani, Winner, 2025</p>
+                          <Button 
+                            variant="outline" 
+                            size="sm" 
+                            className="h-6 text-xs px-2"
+                            asChild
+                          >
+                            <Link 
+                              href="https://www.linkedin.com/posts/lukare-harish_hackathon-engineeringstudents-learning-activity-7407257052680683521-K-gP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEY4OJ8BLHWeX05-XN8i5ncl8B4iZrl-HDQ" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                            >
+                              View
+                            </Link>
+                          </Button>
+                        </div>
                         <p className="text-sm text-muted-foreground">
-                          Secured position in top 17 teams at the national-level.
+                        Drove end-to-end product design and implementation.
                         </p>
                       </div>
                     </li>
                     <li className="flex gap-3">
                       <Trophy className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">Real world Project</p>
+                        <p className="font-medium">iDEA Hackathon, Secured AIR 17, 2025</p>
                         <p className="text-sm text-muted-foreground">
-                        Tech Sanjivani 2025 – Winner (Team Lead).
+                        Team Lead of TechSpectra.
                         </p>
                       </div>
                     </li>
                     <li className="flex gap-3">
                       <Trophy className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">Government of India Project - 1st Place</p>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <p className="font-medium">Smart India Hackathon (SIH), National Winner, 2024</p>
+                          <Button 
+                            variant="outline" 
+                            size="sm" 
+                            className="h-6 text-xs px-2"
+                            asChild
+                          >
+                            <Link 
+                              href="https://www.linkedin.com/posts/lukare-harish_nitsrinagar-sih2024-smartindiahackathon-activity-7275379320351531008-24mB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEY4OJ8BLHWeX05-XN8i5ncl8B4iZrl-HDQ" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                            >
+                              View
+                            </Link>
+                          </Button>
+                        </div>
                         <p className="text-sm text-muted-foreground">
-                        Smart India Hackathon 2024 – Winner (Team Lead).
+                        Led team delivering deployable solution under time constraints.
                         </p>
                       </div>
                     </li>
@@ -598,16 +673,23 @@ export default function Home() {
                     <li className="flex gap-3">
                       <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">Speaker, 2024-25</p>
-                        <p className="text-sm text-muted-foreground">
-                        Open Source Contributions Session, C4GT at KKWIEER, Nashik
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex gap-3">
-                      <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-medium">Member, 2024-25</p>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <p className="font-medium">Member, 2024-25</p>
+                          <Button 
+                            variant="outline" 
+                            size="sm" 
+                            className="h-6 text-xs px-2"
+                            asChild
+                          >
+                            <Link 
+                              href="https://www.kkwagh.edu.in/engineering/department/department-of-computer-engineering/about-department" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                            >
+                              View
+                            </Link>
+                          </Button>
+                        </div>
                         <p className="text-sm text-muted-foreground">
                         Department Advisory Board (DAB), Computer Engineering, KKWIEER, Nashik
                         </p>
@@ -616,9 +698,9 @@ export default function Home() {
                     <li className="flex gap-3">
                       <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">Core Member, MIBCS Technical Club, 2023-24</p>
+                        <p className="font-medium">Speaker, 2024-25</p>
                         <p className="text-sm text-muted-foreground">
-                        Contributed to tech initiatives, project development, and event execution as a core member of MIBCS.
+                        Open Source Contributions Session, C4GT at KKWIEER, Nashik
                         </p>
                       </div>
                     </li>
@@ -643,9 +725,61 @@ export default function Home() {
                     <li className="flex gap-3">
                       <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">Avishkar Zonal Competition</p>
+                        <p className="font-medium">Joint Secretary at CSI-KKWIEER Chapter, 2024-25</p>
                         <p className="text-sm text-muted-foreground">
-                        Volunteer, IDEA Lab KKWIEER, 2024
+                        Managed technical responsibilities including organizing coding competitions, handling official communications, and related tasks.
+                        </p>
+                      </div>
+                    </li>
+                    {/* <li className="flex gap-3">
+                      <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <p className="font-medium">Member, 2024-25</p>
+                          <Button 
+                            variant="outline" 
+                            size="sm" 
+                            className="h-6 text-xs px-2"
+                            asChild
+                          >
+                            <Link 
+                              href="https://www.kkwagh.edu.in/engineering/department/department-of-computer-engineering/about-department" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                            >
+                              View
+                            </Link>
+                          </Button>
+                        </div>
+                        <p className="text-sm text-muted-foreground">
+                        Department Advisory Board (DAB), Computer Engineering, KKWIEER, Nashik
+                        </p>
+                      </div>
+                    </li> */}
+                    {/* <li className="flex gap-3">
+                      <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium">Speaker, 2024-25</p>
+                        <p className="text-sm text-muted-foreground">
+                        Open Source Contributions Session, C4GT at KKWIEER, Nashik
+                        </p>
+                      </div>
+                    </li> */}
+                    <li className="flex gap-3">
+                      <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium">Campus Leader</p>
+                        <p className="text-sm text-muted-foreground">
+                        Code for GovTech (C4GT), 2024-25
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex gap-3">
+                      <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium">Core Member, MIBCS Technical Club, 2023-24</p>
+                        <p className="text-sm text-muted-foreground">
+                        Contributed to tech initiatives, project development, and event execution as a core member of MIBCS.
                         </p>
                       </div>
                     </li>
@@ -660,9 +794,9 @@ export default function Home() {
                     <li className="flex gap-3">
                       <Calendar className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">Campus Leader</p>
+                        <p className="font-medium">Avishkar Zonal Competition</p>
                         <p className="text-sm text-muted-foreground">
-                        Code for GovTech (C4GT), 2024-25
+                        Volunteer, IDEA Lab KKWIEER, 2024
                         </p>
                       </div>
                     </li>
@@ -725,14 +859,14 @@ export default function Home() {
                 <CardContent className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-primary" />
-                    <a href="mailto:harishlukare6@gmail.com" className="hover:underline">
-                    harishlukare6@gmail.com
+                    <a href="mailto:hdlukare@gmail.com" className="hover:underline">
+                    hdlukare@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
                     <Linkedin className="h-5 w-5 text-primary" />
                     <a
-                      href="https://www.linkedin.com/in/lukare-harish/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=in"
+                      href="https://www.linkedin.com/in/lukare-harish/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"
@@ -772,11 +906,11 @@ export default function Home() {
             &copy; {new Date().getFullYear()} Harish Lukare. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
-            <a href="mailto:harishlukare6@gmail.com" aria-label="Email">
+            <a href="mailto:hdlukare@gmail.com" aria-label="Email">
               <Mail className="h-5 w-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/lukare-harish/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=in"
+              href="https://www.linkedin.com/in/lukare-harish/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
