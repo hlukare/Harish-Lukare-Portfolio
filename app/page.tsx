@@ -407,7 +407,6 @@ export default function Home() {
                 description="A Ruby on Rails blog application with blogs and comments functionality. Demonstrates CRUD operations, nested comments, published/unpublished status, validations, and RESTful routing."
                 skills={["Ruby on Rails", "SQLite3", "REST API", "MVC Architecture"]}
                 githubLink="https://github.com/hlukare/ROR-Blogs-App.git"
-                {/* demoLink="https://sync-space1.netlify.app/" */}
               />
 
               <ProjectCard
