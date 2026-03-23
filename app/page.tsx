@@ -181,7 +181,7 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle>Software Engineer Intern (Backend – Golang)</CardTitle>
+                      <CardTitle>Software Engineer Intern (Backend – Golang & ROR)</CardTitle>
                       <CardDescription>Josh Software Inc. | Pune, Maharashtra</CardDescription>
                     </div>
                     <div className="text-sm text-muted-foreground">January 2026 - Present</div>
@@ -272,7 +272,7 @@ export default function Home() {
                       <h3 className="font-medium mb-2">Data Structures & Algorithms</h3>
                       <div className="flex flex-wrap gap-2">
                         <div className="px-3 py-1 bg-muted rounded-full text-sm">
-                          LeetCode Rating 1500+
+                          LeetCode Rating 1479+
                         </div>
                         <div className="px-3 py-1 bg-muted rounded-full text-sm">
                           Handle: harishlukare
@@ -407,6 +407,7 @@ export default function Home() {
                 description="A Ruby on Rails blog application with blogs and comments functionality. Demonstrates CRUD operations, nested comments, published/unpublished status, validations, and RESTful routing."
                 skills={["Ruby on Rails", "SQLite3", "REST API", "MVC Architecture"]}
                 githubLink="https://github.com/hlukare/ROR-Blogs-App.git"
+                {/* demoLink="https://sync-space1.netlify.app/" */}
               />
 
               <ProjectCard
